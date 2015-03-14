@@ -6,8 +6,6 @@ authors = ["Nicholas Mazzuca <npmazzuca@gmail.com>"]
 
 description = "Wrapper around readline on Linux and Mac OS X, a shim on Windows"
 
-documentation = "https://github.com/GBGamer/readline"
-homepage = "https://github.com/GBGamer/readline"
 repository = "https://github.com/GBGamer/readline"
 
 readme = "README.md"
