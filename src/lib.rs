@@ -1,9 +1,13 @@
-extern crate "readline-sys" as ffi;
+#![feature(io)]
 
-pub fn readline(prompt: &str) -> Option<String> {
-    ffi::readline(prompt)
-}
+extern crate "readline-sys" as readline_sys;
+extern crate libc;
 
-pub fn add_history(line: &str) {
-    ffi::add_history(line);
-}
+pub use common::Error;
+pub use common::add_history;
+pub use common::readline;
+pub use common::readline_bare;
+
+mod common;
+mod linux;
+mod other;
