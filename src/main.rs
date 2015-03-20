@@ -1,5 +1,4 @@
 #![cfg(not(test))]
-#![feature(io)]
 
 extern crate readline;
 

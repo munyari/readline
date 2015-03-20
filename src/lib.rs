@@ -1,5 +1,3 @@
-#![feature(io)]
-
 extern crate "readline-sys" as readline_sys;
 extern crate libc;
 
