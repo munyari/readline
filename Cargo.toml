@@ -1,19 +1,16 @@
 [package]
 
 name = "readline"
-version = "0.0.11"
-authors = ["Nicholas Mazzuca <npmazzuca@gmail.com>"]
+version = "0.0.12"
+authors = ["Nicole Mazzuca <npmazzuca@gmail.com>"]
 
 description = "Wrapper around readline on Linux and Mac OS X, a shim on Windows"
 
-repository = "https://github.com/GBGamer/readline"
-
+repository = "https://github.com/ubsan/readline"
 readme = "README.md"
-
 keywords = ["readline", "input"]
-
-license = "MIT"
+license = "MIT/Apache-2.0"
 
 [dependencies]
-libc = "*"
-readline-sys = "0.0.5"
+libc = "0.2.11"
+readline-sys = "0.0.12"
