@@ -11,3 +11,10 @@ To add to a project
 [dependencies]
 readline = "0.0.12"
 ```
+
+License
+=======
+Distributed under the [GNU General Public License][gpl]. Read LICENSE for
+details.
+
+[gpl]: https://www.gnu.org/licenses/quick-guide-gplv3.html
